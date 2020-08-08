@@ -1,0 +1,20 @@
+{
+  "name": "companies-data-compiler",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "license": "MIT",
+  "author": "Dominick Brasileiro",
+  "scripts": {
+    "start": "./_rapina get && node src/index",
+    "reports": "node src/index"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "shelljs": "^0.8.4"
+  },
+  "devDependencies": {
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.21.2"
+  }
+}
